@@ -59,7 +59,6 @@ export default {
 <style scoped>
     .actions {
         margin: 50px auto;
-        background: linear-gradient(355deg, #F9F9F9 6.81%, rgba(234, 234, 234, 0.00) 97.61%);
     }
     .actions__container {
         margin: 0 auto;

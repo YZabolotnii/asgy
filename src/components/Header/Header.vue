@@ -2,7 +2,7 @@
     <header class="header">
         <div class="header__container">
             <a href="" class="header__logo">
-                <img width=80 height=80 src="@/assets/Header/logo.svg" alt="Logo" />
+                <img src="@/assets/Header/logo.svg" alt="Logo" />
             </a>
             <div class="header__menu menu">
                 <nav class="menu__body">
@@ -15,10 +15,10 @@
                     </ul>
                 </nav>
             </div>
-            <Burger />
             <div class="header__button button">
                 <a href="" class="button__text">Почати</a>
             </div>
+            <Burger />
         </div>
     </header>
 </template>
@@ -34,6 +34,10 @@ import Burger from '@/components/Burger/Burger.vue'
     justify-content: space-between;
     padding: 20px;
     max-width: 1200px;
+}
+.header__logo img{
+  width: 80px;
+  height: 80px;
 }
 .menu__list {
     display: flex;
@@ -107,8 +111,13 @@ import Burger from '@/components/Burger/Burger.vue'
         font-size: 20px;
     }
 }
-@media screen and (max-width: 760px){
-
-
+@media screen and (max-width: 769px){
+  .header__menu {
+    display: none;
+  }
+  .header__logo img{
+    width: 50px;
+    height: 50px;
+  }
 }
 </style>

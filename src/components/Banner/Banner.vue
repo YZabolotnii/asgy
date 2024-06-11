@@ -75,6 +75,9 @@
         }
     }
     @media screen and (max-width: 769px){
+      .banner__container {
+        margin-top: 50px;
+      }
         .banner__block {
             height: 300px;
             padding-left: 50px;
@@ -114,7 +117,7 @@
         .banner__block {
             height: 200px;
             padding-left: 20px;
-            margin: 100px 20px 50px;
+            margin: 50px 20px 50px;
         }
         .banner__image {
             left: 37%;

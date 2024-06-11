@@ -56,8 +56,6 @@ export default {
 <style scoped>
     .news {
         margin: 0 auto;
-
-        background: linear-gradient(185deg, #F9F9F9 6.81%, rgba(234, 234, 234, 0.00) 97.61%);
     }
     .news__container {
         margin: 0 auto;

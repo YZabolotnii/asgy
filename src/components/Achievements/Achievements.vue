@@ -63,7 +63,6 @@
 .achievements {
     margin: 0 auto;
     padding: 50px 0;
-    background: linear-gradient(197deg, #FFF 11.97%, #F9F9F9 84.92%);
 }
 .achievements__el {
     margin: 0 50px;
