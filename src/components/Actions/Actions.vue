@@ -22,7 +22,7 @@
                         </div>
 
                         <div class='actions__button dn-900'>
-                            <a href="№">Більше</a>
+                            <a href="#">Більше</a>
                         </div>
     
                     </div>
@@ -80,7 +80,7 @@ export default {
         border-radius: 50px;
         background: #FFF;
 
-        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.10);
     }
     .actions__left {
         width: 70%;
@@ -285,6 +285,7 @@ export default {
         .opacity {
             top: 110px;
             height: 40%;
+            border-bottom-right-radius: 16px;
         }
     }
     @media screen and (max-width: 450px) {
