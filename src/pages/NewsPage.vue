@@ -60,7 +60,6 @@ const newsItems =  [
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -84,7 +83,7 @@ const newsItems =  [
   max-height: 820px;
   border-radius: 50px;
   background: #FFF;
-  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.10);
 }
 .img {
   width: 400px;
@@ -134,6 +133,10 @@ const newsItems =  [
     overflow: hidden;
   }
 }
+.ico {
+  width: 50px;
+  height: 50px;
+}
 @media screen and (max-width: 679px) {
   .news__main-blocks {
     gap: 20px;
@@ -149,6 +152,10 @@ const newsItems =  [
   }
   .news__text-down {
     display: none;
+  }
+  .ico {
+    width: 30px;
+    height: 30px;
   }
 }
 @media screen and (max-width: 550px) {

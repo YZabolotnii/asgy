@@ -52,7 +52,7 @@
   ]
 </script>
 
-<style>
+<style scoped>
     .page-news {
         margin-bottom: 100px;
     }
