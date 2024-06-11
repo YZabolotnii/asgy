@@ -24,7 +24,7 @@
                                 <div class="opacity"></div>
                             </div>                            
                             <div class="btn">
-                                <div class="btn__text">Читати повністю</div>
+                                <div class="btn__text"><router-link to="/news/memorandum"></router-link></div>
                             </div>
                         </div>                    
                     </div>
