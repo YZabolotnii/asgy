@@ -121,7 +121,7 @@
         }
         .banner__image {
             left: 37%;
-            bottom: 13.2%;
+            bottom: 15.4%;
         }
         .asgu__logo {
             width: 100px;
