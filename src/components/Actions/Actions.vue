@@ -22,7 +22,7 @@
                         </div>
 
                         <div class='actions__button dn-900'>
-                            <a href="#">Більше</a>
+                          <router-link to="/news/memorandum">Більше</router-link>
                         </div>
     
                     </div>

@@ -7,11 +7,11 @@
     </button>
     <nav :class="{ open: isOpen }" class="menu">
       <ul>
-        <li><router-link to="/">Головна</router-link></li>
-        <li><router-link to="/news">Новини</router-link></li>
-        <li><router-link to="/actions">Події</router-link></li>
-        <li><router-link to="/filii">Філії</router-link></li>
-        <li><router-link to="/documents">Документи</router-link></li>
+        <li><router-link @click.native="closeMenu" to="/">Головна</router-link></li>
+        <li><router-link @click.native="closeMenu" to="/news">Новини</router-link></li>
+        <li><router-link @click.native="closeMenu" to="/actions">Події</router-link></li>
+        <li><router-link @click.native="closeMenu" to="/filii">Філії</router-link></li>
+        <li><router-link @click.native="closeMenu" to="/documents">Документи</router-link></li>
       </ul>
     </nav>
   </div>
@@ -24,6 +24,10 @@ const isOpen = ref(false)
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value
+}
+
+const closeMenu = () => {
+  isOpen.value = false
 }
 </script>
 
