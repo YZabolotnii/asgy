@@ -1,7 +1,10 @@
 <template>
-  <Header />
-    <router-view></router-view>
-  <Footer />
+  <div class="wrapper">
+    <Header />
+    <div class="content">
+      <router-view></router-view>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -25,5 +28,4 @@ body {
 </style>
 <script setup>
 import Header from "@/components/Header/Header.vue";
-import Footer from "@/components/Footer/Footer.vue";
 </script>
