@@ -30,7 +30,7 @@
                 </div>
                 <div class="actions__button-m">
                     <div class='actions__button'>
-                        <a href="#">Більше</a>
+                      <router-link to="/news/memorandum">Більше</router-link>
                     </div>
                 </div>
             </div>
@@ -38,21 +38,15 @@
     </div>
 </template>
 
-<script >
-
-export default {
-    data() {
-        return {
-            actionsItemsMain: [
-        {
-            title: 'Меморандум про співпрацю щодо використання БпЛА для створення картографічної основи підписано між Culver Aviation, Асоціацією фахівців землеустрою України та Асоціацією сертифікованих геодезистів України',
-            body: 'Урочисте підписання Меморандуму відбулося в рамках заходу «Презентація потреб та інструментів просторового планування», що відбувся 31 травня у місті Київ. Під час зустрічі представники Програми USAID АГРО, територіальних громад, центральних органів ',
-            image: 'news-1.png',
-            // hrefButton: 'gg'
-        },
-    
-    ]};
-}};
+<script setup>
+const actionsItemsMain = [
+    {
+        title: 'Меморандум про співпрацю щодо використання БпЛА для створення картографічної основи підписано між Culver Aviation, Асоціацією фахівців землеустрою України та Асоціацією сертифікованих геодезистів України',
+        body: 'Урочисте підписання Меморандуму відбулося в рамках заходу «Презентація потреб та інструментів просторового планування», що відбувся 31 травня у місті Київ. Під час зустрічі представники Програми USAID АГРО, територіальних громад, центральних органів ',
+        image: 'news-1.png',
+        // hrefButton: 'gg'
+    },
+];
 
 </script>
 
@@ -99,7 +93,7 @@ export default {
         height: 500px;
     }
     .actions__text-up {
-        max-height: 170px;
+        max-height: 150px;
         overflow: hidden;
         color: #420;
         font-size: 24px;
@@ -267,46 +261,31 @@ export default {
         }
     }
     @media screen and (max-width: 500px) {
-        .actions__block {
-            height: 250px;
-        }
-        .actions__right img {
-            width: 200px;
-            height: 250px;
-        }
-        .actions__text-up {
-            max-height: 57px;
-            font-size: 16px;
-        }
-        .actions__text-bottom {
-            max-height: 125px;
-            font-size: 14px;
-        }
-        .opacity {
-            top: 110px;
-            height: 40%;
-            border-bottom-right-radius: 16px;
-        }
-    }
-    @media screen and (max-width: 450px) {
-        .actions__block {
-            height: 230px;
-        }
-        .actions__right img {
-            width: 170px;
-            height: 230px;
-        }
-        /* .actions__text-up {
-            max-height: 57px;
-            font-size: 16px;
-        }
-        .actions__text-bottom {
-            max-height: 125px;
-            font-size: 14px;
-        }
-        .opacity {
-            top: 110px;
-            height: 40%;
-        } */
+      .title {
+        font-size: 32px;
+      }
+      .actions__left-container {
+        width: 170px;
+      }
+      .actions__block {
+          height: 170px;
+      }
+      .actions__right img {
+          width: 170px;
+          height: 170px;
+      }
+      .actions__text-up {
+        max-height: 40px;
+        font-size: 16px;
+      }
+      .actions__text-bottom {
+        max-height: 65px;
+        font-size: 14px;
+      }
+      .opacity {
+        top: 50px;
+        height: 40%;
+        border-bottom-right-radius: 16px;
+      }
     }
 </style>

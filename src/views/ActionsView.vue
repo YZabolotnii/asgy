@@ -6,7 +6,7 @@
 
 <script setup>
 import Header from '@/components/Header/Header.vue'
-import Actions from '@/pages/ActionsPage.vue'
 import Footer from '@/components/Footer/Footer.vue'
+import Actions from "@/pages/ActionsPage.vue";
 
 </script>

@@ -80,7 +80,6 @@ const newsItems =  [
 }
 .news__block {
   max-width: 400px;
-  max-height: 820px;
   border-radius: 50px;
   background: #FFF;
   box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.10);

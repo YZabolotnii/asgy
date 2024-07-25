@@ -3,7 +3,7 @@
         <div class="news__container-m">
             <div class="news__container">
                 <div class="news__title title">Новини</div>
-                <div class="news__block" v-for="(item, index) in newsItemsMain" :key="index">
+                <div class="news__block" v-for="(item, index) in actionsItemsMain" :key="index">
                     <div class="news__left">
                         
                         <div class="news__left-container">
@@ -17,7 +17,7 @@
                         </div>
 
                         <div class='news__button dn-900'>
-                            <a href="№">Більше</a>
+                            <a href="">Більше</a>
                         </div>
     
                     </div>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="news__button-m">
                     <div class='news__button'>
-                        <a href="#">Більше</a>
+                        <router-link to="/news/memorandum">Більше</router-link>
                     </div>
                 </div>
             </div>
@@ -35,24 +35,17 @@
     </div>
 </template>
 
-<script >
+<script setup>
 
-export default {
-    data() {
-        return {
-            newsItemsMain: [
-        {
-            title: 'Меморандум про співпрацю щодо використання БпЛА для створення картографічної основи підписано між Culver Aviation, Асоціацією фахівців землеустрою України та Асоціацією сертифікованих геодезистів України',
-            body: 'Урочисте підписання Меморандуму відбулося в рамках заходу «Презентація потреб та інструментів просторового планування», що відбувся 31 травня у місті Київ. Під час зустрічі представники Програми USAID АГРО, територіальних громад, центральних органів ',
-            image: 'news-1.png',
-            // hrefButton: 'gg'
-        },
-    
-    ]};
-}};
-
+const actionsItemsMain = [
+  {
+    title: 'Меморандум про співпрацю щодо використання БпЛА для створення картографічної основи підписано між Culver Aviation, Асоціацією фахівців землеустрою України та Асоціацією сертифікованих геодезистів України',
+    body: 'Урочисте підписання Меморандуму відбулося в рамках заходу «Презентація потреб та інструментів просторового планування», що відбувся 31 травня у місті Київ. Під час зустрічі представники Програми USAID АГРО, територіальних громад, центральних органів ',
+    image: 'news-1.png',
+    // hrefButton: 'gg'
+  },
+];
 </script>
-
 <style scoped>
     .news {
         margin: 0 auto;
@@ -76,8 +69,7 @@ export default {
         justify-content: space-between;
         border-radius: 50px;
         background: #FFF;
-
-        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.10);
     }
     .news__left {
         width: 70%;
@@ -96,7 +88,7 @@ export default {
         height: 500px;
     }
     .news__text-up {
-        max-height: 170px;
+        max-height: 150px;
         overflow: hidden;
         color: #420;
         font-size: 24px;
@@ -261,45 +253,30 @@ export default {
         }
     }
     @media screen and (max-width: 500px) {
-        .news__block {
-            height: 250px;
-        }
-        .news__right img {
-            width: 200px;
-            height: 250px;
-        }
-        .news__text-up {
-            max-height: 57px;
-            font-size: 16px;
-        }
-        .news__text-bottom {
-            max-height: 125px;
-            font-size: 14px;
-        }
-        .opacity {
-            top: 110px;
-            height: 40%;
-        }
-    }
-    @media screen and (max-width: 450px) {
-        .news__block {
-            height: 230px;
-        }
-        .news__right img {
-            width: 170px;
-            height: 230px;
-        }
-        /* .news__text-up {
-            max-height: 57px;
-            font-size: 16px;
-        }
-        .news__text-bottom {
-            max-height: 125px;
-            font-size: 14px;
-        }
-        .opacity {
-            top: 110px;
-            height: 40%;
-        } */
+      .title {
+        font-size: 32px;
+      }
+      .news__left-container {
+        height: 140px;
+      }
+      .news__block {
+          height: 170px;
+      }
+      .news__right img {
+        width: 170px;
+        height: 170px;
+      }
+      .news__text-up {
+          max-height: 40px;
+          font-size: 16px;
+      }
+      .news__text-bottom {
+          max-height: 65px;
+          font-size: 14px;
+      }
+      .opacity {
+        top: 85px;
+        height: 40%;
+      }
     }
 </style>

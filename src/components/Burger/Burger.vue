@@ -56,7 +56,7 @@ const toggleMenu = () => {
   }
 
   .burger-button span {
-    width: 100%;
+    width: 30px;
     height: 2px;
     background: #333;
     transition: all 0.3s;
@@ -71,7 +71,7 @@ const toggleMenu = () => {
   }
 
   .burger-button span.open:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -8px);
+    transform: rotate(-45deg) translate(7px, -8px);
   }
 
   .menu {

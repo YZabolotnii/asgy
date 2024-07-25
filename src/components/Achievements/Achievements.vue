@@ -30,24 +30,24 @@
                             <div class="achievements__right-text">Стань частиною спільноти, що має вагомий голос! Наші члени отримують ексклюзивні знижки від партнерів на користування супутніми послугами та геодезичним обладнанням.</div>
                         </div>
                         <div class="achievements__right-block">
-                            <div class="achievements__right-num">01.</div>
-                            <div class="achievements__right-mini-title">Знижки від партнерів</div>
-                            <div class="achievements__right-text">Стань частиною спільноти, що має вагомий голос! Наші члени отримують ексклюзивні знижки від партнерів на користування супутніми послугами та геодезичним обладнанням.</div>
+                            <div class="achievements__right-num">02.</div>
+                            <div class="achievements__right-mini-title">Кваліфікована підтримка</div>
+                            <div class="achievements__right-text">Наша асоціація пишається тим, що надає членам професійну підтримку при виконанні топографо-геодезичних робіт.</div>
                         </div>
                         <div class="achievements__right-block">
-                            <div class="achievements__right-num">01.</div>
-                            <div class="achievements__right-mini-title">Знижки від партнерів</div>
-                            <div class="achievements__right-text">Стань частиною спільноти, що має вагомий голос! Наші члени отримують ексклюзивні знижки від партнерів на користування супутніми послугами та геодезичним обладнанням.</div>
+                            <div class="achievements__right-num">03.</div>
+                            <div class="achievements__right-mini-title">Науково-практичні заходи</div>
+                            <div class="achievements__right-text">Участь у науково-практичних заходах дозволить вам вдосконалювати свої навички та збагачувати свої знання.</div>
                         </div>
                         <div class="achievements__right-block">
-                            <div class="achievements__right-num">01.</div>
-                            <div class="achievements__right-mini-title">Знижки від партнерів</div>
-                            <div class="achievements__right-text">Стань частиною спільноти, що має вагомий голос! Наші члени отримують ексклюзивні знижки від партнерів на користування супутніми послугами та геодезичним обладнанням.</div>
+                            <div class="achievements__right-num">04.</div>
+                            <div class="achievements__right-mini-title">Захист інтересів</div>
+                            <div class="achievements__right-text">Активна участь у Кваліфікаційній комісії гарантує, що ваші професійні інтереси будуть належним чином захищені.</div>
                         </div>
                         <div class="achievements__right-block">
-                            <div class="achievements__right-num">01.</div>
-                            <div class="achievements__right-mini-title">Знижки від партнерів</div>
-                            <div class="achievements__right-text">Стань частиною спільноти, що має вагомий голос! Наші члени отримують ексклюзивні знижки від партнерів на користування супутніми послугами та геодезичним обладнанням.</div>
+                            <div class="achievements__right-num">05.</div>
+                            <div class="achievements__right-mini-title">Реальний вплив на галузь</div>
+                            <div class="achievements__right-text">Разом ми вирішуємо актуальні питання в галузі геодезії. Ми підтримуємо своїх членів у підготовці листів-звернень до державних установ, надаючи голос професійної спільноти.</div>
                         </div> 
                     </div>
                 </div>
@@ -113,7 +113,7 @@
 }
 .achievements__right-title {
     text-align: center;
-    font-family: "Closer Text";
+    
     margin-bottom: 20px;
 }
 .title, .title-actions {
@@ -137,7 +137,7 @@
 }
 .achievements__right-num {
     color: #420;
-    font-family: "Closer Text";
+    
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -145,8 +145,7 @@
 }
 .achievements__right-mini-title {
     color: #420;
-    font-family: "Closer Text";
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -154,7 +153,7 @@
 .achievements__right-text {
     color: #420;
     text-align: justify;
-    font-family: "Closer Text";
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 300;

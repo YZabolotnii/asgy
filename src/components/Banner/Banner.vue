@@ -8,11 +8,6 @@
         </div>
     </div>
 </template>
-
-<script>
-
-</script>
-
 <style scoped>
     * {
         box-sizing: border-box;
@@ -121,7 +116,7 @@
         }
         .banner__image {
             left: 37%;
-            bottom: 15.4%;
+            bottom: 15.3%;
         }
         .asgu__logo {
             width: 100px;

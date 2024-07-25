@@ -40,11 +40,6 @@
             </div>
         </div>
 </template>
-
-<script>
-
-</script>
-
 <style scoped>
     * {
         box-sizing: border-box;
